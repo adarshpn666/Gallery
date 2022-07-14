@@ -1,0 +1,68 @@
+/* Roboto fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* remove default margins & paddings */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+
+/* styling body */
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* styling header h1 */
+h1 {
+    color: rgb(34, 4, 4);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.486);
+
+}
+
+
+/* lets play with grid */
+.box-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    column-gap: 20px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* styling grid boxes */
+.box {
+    width: 250px;
+    height: 175px;
+    background-color: rgb(136, 28, 28);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 250px;
+    height: 175px;
+    border-radius: 10px;
+    transform: scale(1.0);
+    transition: transform 0.2s;
+   
+}
+
+
+img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
