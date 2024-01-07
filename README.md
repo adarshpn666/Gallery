@@ -5,10 +5,7 @@ This project is a simple image gallery created using HTML, CSS, and JavaScript. 
 ## Table of Contents
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Structure](#structure)
-- [JavaScript Functionality](#javascript-functionality)
-- [Unsplash Image Credits](#unsplash-image-credits)
+- [Demo](#demo)
 - [Contributing](#contributing)
 - [License](#license)
 
